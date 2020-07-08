@@ -8,7 +8,7 @@ spec:
     kind: RuntimeComponent
     name: kafka-producer
   service:
-    apiVersion: v1beta1/kafka.strimzi.io
+    apiVersion: kafka.strimzi.io/v1beta1
     kind: KafkaUser
     name: my-producer-user
 ---
