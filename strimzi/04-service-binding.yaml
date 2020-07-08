@@ -24,7 +24,7 @@ spec:
   service:
     apiVersion: kafka.strimzi.io/v1beta1
     kind: Kafka
-    name: my-producer-cluster
+    name: my-cluster
     mappings:
       - name: hosts
         value: |-
